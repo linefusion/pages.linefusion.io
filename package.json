@@ -2,7 +2,8 @@
   "name": "pages.linefusion.io",
   "version": "1.0.0",
   "scripts": {
-    "publish": "next build && next export"
+    "build": "next build",
+    "export": "next build"
   },
   "dependencies": {
     "next": "^11.1.0",
